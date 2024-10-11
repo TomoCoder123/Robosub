@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.002287] (test_package) JobQueued: {'identifier': 'test_package', 'dependencies': OrderedDict()}
+[0.003721] (test_package) JobStarted: {'identifier': 'test_package'}
+[0.052350] (test_package) JobProgress: {'identifier': 'test_package', 'progress': 'cmake'}
+[0.055475] (test_package) JobProgress: {'identifier': 'test_package', 'progress': 'build'}
+[0.055634] (test_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/Robosub/ros2_ws/build/test_package', '--', '-j20', '-l20'], 'cwd': '/home/Robosub/ros2_ws/build/test_package', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/home/tdeng23/tb_ws/install/asl_tb3_sim/share'), ('HOSTNAME', 'Thomas-II'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/tdeng23/tb_ws/install/ros_ign_interfaces/lib:/home/tdeng23/tb_ws/install/ros_gz_sim/lib:/home/tdeng23/tb_ws/install/ros_gz_bridge/lib:/home/tdeng23/tb_ws/install/ros_gz_interfaces/lib:/home/tdeng23/tb_ws/install/asl_tb3_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/helpers/browser.sh'), ('HOME', '/home/tdeng23'), ('OLDPWD', '/home/Robosub/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.94.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b4e085cd-aeaa-4935-8c60-cd11fc9b6c0c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-bed24e28-66ae-433b-9b5b-ddc4d4fcdf30.sock'), ('COLCON_PREFIX_PATH', '/home/tdeng23/tb_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-52b71f90-5abb-4c34-ac1e-80c617778928.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/home/tdeng23/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-d1dc1252ee.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/tdeng23/tb_ws/install/test_ros_gz_bridge:/home/tdeng23/tb_ws/install/ros_ign_interfaces:/home/tdeng23/tb_ws/install/ros_ign:/home/tdeng23/tb_ws/install/ros_ign_image:/home/tdeng23/tb_ws/install/ros_ign_gazebo_demos:/home/tdeng23/tb_ws/install/ros_ign_gazebo:/home/tdeng23/tb_ws/install/ros_ign_bridge:/home/tdeng23/tb_ws/install/ros_gz:/home/tdeng23/tb_ws/install/ros_gz_sim_demos:/home/tdeng23/tb_ws/install/asl_tb3_sim:/home/tdeng23/tb_ws/install/ros_gz_sim:/home/tdeng23/tb_ws/install/ros_gz_image:/home/tdeng23/tb_ws/install/ros_gz_bridge:/home/tdeng23/tb_ws/install/ros_gz_interfaces:/home/tdeng23/tb_ws/install/asl_tb3_examples:/home/tdeng23/tb_ws/install/asl_tb3_lib:/home/tdeng23/tb_ws/install/asl_tb3_msgs:/home/tdeng23/tb_ws/install/asl_tb3_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/tdeng23/tb_ws/install/ros_gz_sim_demos/share'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/Robosub/ros2_ws/build/test_package'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/tdeng23/tb_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/tdeng23/tb_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/tdeng23/tb_ws/install/asl_tb3_examples/local/lib/python3.10/dist-packages:/home/tdeng23/tb_ws/install/asl_tb3_lib/local/lib/python3.10/dist-packages:/home/tdeng23/tb_ws/install/asl_tb3_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tdeng23/tb_ws/install/test_ros_gz_bridge:/home/tdeng23/tb_ws/install/ros_ign_interfaces:/home/tdeng23/tb_ws/install/ros_ign:/home/tdeng23/tb_ws/install/ros_ign_image:/home/tdeng23/tb_ws/install/ros_ign_gazebo_demos:/home/tdeng23/tb_ws/install/ros_ign_gazebo:/home/tdeng23/tb_ws/install/ros_ign_bridge:/home/tdeng23/tb_ws/install/ros_gz:/home/tdeng23/tb_ws/install/ros_gz_sim_demos:/home/tdeng23/tb_ws/install/asl_tb3_sim:/home/tdeng23/tb_ws/install/ros_gz_sim:/home/tdeng23/tb_ws/install/ros_gz_image:/home/tdeng23/tb_ws/install/ros_gz_bridge:/home/tdeng23/tb_ws/install/ros_gz_interfaces:/home/tdeng23/tb_ws/install/asl_tb3_examples:/home/tdeng23/tb_ws/install/asl_tb3_lib:/home/tdeng23/tb_ws/install/asl_tb3_msgs:/home/tdeng23/tb_ws/install/asl_tb3_driver')]), 'shell': False}
+[0.099018] (-) TimerEvent: {}
+[0.114811] (test_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199222] (-) TimerEvent: {}
+[0.299832] (-) TimerEvent: {}
+[0.365663] (test_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.400016] (-) TimerEvent: {}
+[0.468099] (test_package) StderrLine: {'line': b"Error parsing '/home/Robosub/ros2_ws/src/ros_testing/test_package/package.xml':\n"}
+[0.468711] (test_package) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.468886] (test_package) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[0.470573] (test_package) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[0.470963] (test_package) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString\n'}
+[0.473760] (test_package) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[0.474117] (test_package) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[0.475047] (test_package) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[0.475426] (test_package) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[0.476050] (test_package) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[0.476264] (test_package) StderrLine: {'line': b'xml.parsers.expat.ExpatError: junk after document element: line 19, column 0\n'}
+[0.476378] (test_package) StderrLine: {'line': b'\n'}
+[0.476488] (test_package) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[0.476592] (test_package) StderrLine: {'line': b'\n'}
+[0.476688] (test_package) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.476782] (test_package) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[0.476874] (test_package) StderrLine: {'line': b'    main()\n'}
+[0.476964] (test_package) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[0.477056] (test_package) StderrLine: {'line': b'    raise e\n'}
+[0.477147] (test_package) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[0.477243] (test_package) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.477344] (test_package) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[0.477434] (test_package) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[0.477526] (test_package) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/Robosub/ros2_ws/src/ros_testing/test_package/package.xml':\n"}
+[0.477618] (test_package) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[0.477729] (test_package) StderrLine: {'line': b'junk after document element: line 19, column 0\n'}
+[0.489947] (test_package) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.490406] (test_package) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.490711] (test_package) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.490844] (test_package) StderrLine: {'line': b'  /home/Robosub/ros2_ws/src/ros_testing/test_package/package.xml\n'}
+[0.491038] (test_package) StderrLine: {'line': b'  /home/Robosub/ros2_ws/build/test_package/ament_cmake_core/package.cmake)\n'}
+[0.491271] (test_package) StderrLine: {'line': b'  returned error code 1\n'}
+[0.491450] (test_package) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.491626] (test_package) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.491820] (test_package) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[0.491992] (test_package) StderrLine: {'line': b'  CMakeLists.txt:28 (ament_lint_auto_find_test_dependencies)\n'}
+[0.492356] (test_package) StderrLine: {'line': b'\n'}
+[0.492537] (test_package) StderrLine: {'line': b'\x1b[0m\n'}
+[0.493012] (test_package) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.493295] (test_package) StdoutLine: {'line': b'See also "/home/Robosub/ros2_ws/build/test_package/CMakeFiles/CMakeOutput.log".\n'}
+[0.494260] (test_package) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[0.498229] (test_package) CommandEnded: {'returncode': 2}
+[0.498805] (test_package) JobEnded: {'identifier': 'test_package', 'rc': 2}
+[0.500162] (-) TimerEvent: {}
+[0.509586] (-) EventReactorShutdown: {}

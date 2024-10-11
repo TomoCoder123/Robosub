@@ -1,0 +1,8 @@
+source;share/TestPerception/hook/cmake_prefix_path.ps1
+source;share/TestPerception/hook/cmake_prefix_path.dsv
+source;share/TestPerception/hook/cmake_prefix_path.sh
+source;share/TestPerception/local_setup.bash
+source;share/TestPerception/local_setup.dsv
+source;share/TestPerception/local_setup.ps1
+source;share/TestPerception/local_setup.sh
+source;share/TestPerception/local_setup.zsh

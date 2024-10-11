@@ -1,0 +1,6 @@
+Invoking command in '/home/Robosub/ros2_ws/build/test_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/Robosub/ros2_ws/test_perception -DCMAKE_INSTALL_PREFIX=/home/Robosub/ros2_ws/install/test_perception
+Invoked command in '/home/Robosub/ros2_ws/build/test_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/Robosub/ros2_ws/test_perception -DCMAKE_INSTALL_PREFIX=/home/Robosub/ros2_ws/install/test_perception
+Invoking command in '/home/Robosub/ros2_ws/build/test_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/Robosub/ros2_ws/build/test_perception -- -j20 -l20
+Invoked command in '/home/Robosub/ros2_ws/build/test_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/Robosub/ros2_ws/build/test_perception -- -j20 -l20
+Invoking command in '/home/Robosub/ros2_ws/build/test_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/Robosub/ros2_ws/build/test_perception
+Invoked command in '/home/Robosub/ros2_ws/build/test_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/Robosub/ros2_ws/build/test_perception

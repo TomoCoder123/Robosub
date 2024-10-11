@@ -1,0 +1,42 @@
+[0.051s] Invoking command in '/home/Robosub/ros2_ws/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/Robosub/ros2_ws/src/ros_testing/test_package -DCMAKE_INSTALL_PREFIX=/home/Robosub/ros2_ws/install/test_package
+[0.208s] -- The C compiler identification is GNU 11.4.0
+[0.295s] -- The CXX compiler identification is GNU 11.4.0
+[0.305s] -- Detecting C compiler ABI info
+[0.441s] -- Detecting C compiler ABI info - done
+[0.456s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.456s] -- Detecting C compile features
+[0.456s] -- Detecting C compile features - done
+[0.462s] -- Detecting CXX compiler ABI info
+[0.592s] -- Detecting CXX compiler ABI info - done
+[0.609s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.610s] -- Detecting CXX compile features
+[0.611s] -- Detecting CXX compile features - done
+[0.621s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.940s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.174s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.336s] -- Added test 'lint_cmake' to check CMake code style
+[1.337s] -- Added test 'xmllint' to check XML markup files
+[1.341s] -- Configuring done
+[1.348s] -- Generating done
+[1.350s] -- Build files have been written to: /home/Robosub/ros2_ws/build/test_package
+[1.358s] Invoked command in '/home/Robosub/ros2_ws/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/Robosub/ros2_ws/src/ros_testing/test_package -DCMAKE_INSTALL_PREFIX=/home/Robosub/ros2_ws/install/test_package
+[1.362s] Invoking command in '/home/Robosub/ros2_ws/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/Robosub/ros2_ws/build/test_package -- -j20 -l20
+[1.438s] Invoked command in '/home/Robosub/ros2_ws/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/Robosub/ros2_ws/build/test_package -- -j20 -l20
+[1.503s] Invoking command in '/home/Robosub/ros2_ws/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/Robosub/ros2_ws/build/test_package
+[1.512s] -- Install configuration: ""
+[1.516s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/ament_index/resource_index/package_run_dependencies/test_package
+[1.517s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/ament_index/resource_index/parent_prefix_path/test_package
+[1.519s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/test_package/environment/ament_prefix_path.sh
+[1.520s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/test_package/environment/ament_prefix_path.dsv
+[1.521s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/test_package/environment/path.sh
+[1.521s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/test_package/environment/path.dsv
+[1.522s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/test_package/local_setup.bash
+[1.522s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/test_package/local_setup.sh
+[1.522s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/test_package/local_setup.zsh
+[1.523s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/test_package/local_setup.dsv
+[1.523s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/test_package/package.dsv
+[1.523s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/ament_index/resource_index/packages/test_package
+[1.524s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/test_package/cmake/test_packageConfig.cmake
+[1.524s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/test_package/cmake/test_packageConfig-version.cmake
+[1.524s] -- Installing: /home/Robosub/ros2_ws/install/test_package/share/test_package/package.xml
+[1.530s] Invoked command in '/home/Robosub/ros2_ws/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/Robosub/ros2_ws/build/test_package
