@@ -1,4 +1,5 @@
 /home/Robosub/ros2_ws/install/test_package/lib/test_package/dummy_video.py
+/home/Robosub/ros2_ws/install/test_package/lib/test_package/YOLONode.py
 /home/Robosub/ros2_ws/install/test_package/share/test_package/launch/launch.py
 /home/Robosub/ros2_ws/install/test_package/share/ament_index/resource_index/package_run_dependencies/test_package
 /home/Robosub/ros2_ws/install/test_package/share/ament_index/resource_index/parent_prefix_path/test_package

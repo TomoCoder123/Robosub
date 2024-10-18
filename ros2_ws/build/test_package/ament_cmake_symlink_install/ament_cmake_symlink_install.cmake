@@ -313,6 +313,9 @@ message(STATUS "Execute custom install script")
 # install(PROGRAMS "scripts/dummy_video.py" "DESTINATION" "lib/test_package")
 ament_cmake_symlink_install_programs("/home/Robosub/ros2_ws/src/ros_testing/test_package" PROGRAMS "scripts/dummy_video.py" "DESTINATION" "lib/test_package")
 
+# install(PROGRAMS "scripts/YOLONode.py" "DESTINATION" "lib/test_package")
+ament_cmake_symlink_install_programs("/home/Robosub/ros2_ws/src/ros_testing/test_package" PROGRAMS "scripts/YOLONode.py" "DESTINATION" "lib/test_package")
+
 # install(DIRECTORY "launch" "DESTINATION" "share/test_package")
 ament_cmake_symlink_install_directory("/home/Robosub/ros2_ws/src/ros_testing/test_package" DIRECTORY "launch" "DESTINATION" "share/test_package")
 

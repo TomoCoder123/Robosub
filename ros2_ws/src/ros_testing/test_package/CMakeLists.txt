@@ -13,6 +13,11 @@ find_package(ament_cmake REQUIRED)
 
 install(PROGRAMS
     scripts/dummy_video.py
+
+    DESTINATION lib/${PROJECT_NAME}
+)
+install(PROGRAMS
+    scripts/YOLONode.py
     DESTINATION lib/${PROJECT_NAME}
 )
 install(DIRECTORY launch

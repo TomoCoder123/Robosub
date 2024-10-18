@@ -6,9 +6,14 @@ def generate_launch_description():
         Node(
             package='test_package',  # Replace with your package name
             executable='dummy_video.py', # The name of the executable (should match the entry point defined in setup.py)
-            name='image_publisher_node',
             output='screen',
             parameters=[],
             arguments=['../videos/videoplayback.mp4']  # Replace with the path to your video file
-        ),
+        ),   Node(
+            package='test_package',  # Replace with your package name
+            executable='YOLONode.py', # The name of the executable (should match the entry point defined in setup.py)
+            output='screen',
+            parameters=[],
+            arguments=['../videos/videoplayback.mp4']  # Replace with the path to your video file
+        )
     ])
